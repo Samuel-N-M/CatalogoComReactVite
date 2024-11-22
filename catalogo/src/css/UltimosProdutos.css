@@ -1,0 +1,13 @@
+.boxProduto {
+  width: 100%;
+  margin: 0;
+  padding: 20px 50px;
+  background-color: #c4c4c4;
+}
+
+.tituloC {
+  text-align: left;
+  font-size: 40px;
+  color: #333;
+  margin: 20px 30px 10px 60px;
+}
