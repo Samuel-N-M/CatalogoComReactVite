@@ -1,7 +1,3 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
 #Cache folder
 .alcache/
 #Symbols folder
@@ -20,3 +16,65 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+
+# Vite build output
+dist/
+
+# Production build
+build/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional Prettier log
+.prettierlog
+
+# Testing files
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# MacOS
+*.DS_Store
+
+# Temp files
+*.tmp
+*.swp
+
+# Ignore yarn berry files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
