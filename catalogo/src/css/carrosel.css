@@ -1,0 +1,116 @@
+.carrosel-container {
+  background-color: #333; /* Fundo escuro */
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.tituloDestac {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.titulo-barraDestac {
+  width: 250px; /* Comprimento da barra */
+  height: 6px; /* Altura da barra */
+  background-color: #ff6700; /* Cor laranja */
+  margin: 0 auto; /* Centraliza a barra */
+  margin-bottom: 30px; /* Espaço abaixo da barra */
+  border-radius: 20px;
+}
+
+.carrosel {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+.slide {
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.ativo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+.slide-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+}
+
+.texto {
+  position: relative;
+  flex: 1;
+  margin: 0px 10px 0px 60px;
+  text-align: left;
+  height: 350px;
+}
+
+.texto h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.texto p {
+  width: 500px;
+  margin: 0;
+  /* margin-bottom: 50px; Espaço abaixo do texto */
+  line-height: 1.6; /* Melhora a legibilidade */
+  color: #ddd; /* Cor suave para o texto */
+}
+
+.botao {
+  position: absolute;
+  bottom: 10px; /* Distância do fundo */
+  padding: 10px 80px; /* Tamanho do botão */
+  background-color: #242725; /* Fundo escuro */
+  color: #ff6700; /* Texto e ícone laranjas */
+  border: 2px solid #ff6700; /* Borda laranja */
+  border-radius: 20px; /* Bordas arredondadas */
+  font-size: 20px !important;/* Tamanho do texto */
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.botao:hover {
+  background-color: #333; /* Fundo escurecido ao passar o mouse */
+}
+
+.imagem img {
+  width: 500px;
+  height: 350px;
+  margin-right: 40px;
+  object-fit: cover; /* Ajusta a proporção da imagem */
+  border-radius: 10px; /* Arredonda os cantos */
+}
+
+.indicadores {
+  margin-top: 20px;
+}
+
+.indicador {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #666;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.indicador.ativo {
+  background-color: #ff6700;
+}
