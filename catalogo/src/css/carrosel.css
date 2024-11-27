@@ -7,14 +7,14 @@
   margin: 0;
 }
 
-.tituloDestac {
+.tituloCenterL {
   text-align: center;
   font-size: 40px;
   color: #fff;
   margin-bottom: 10px;
 }
 
-.titulo-barraDestac {
+.titulo-barraCenter {
   width: 250px; /* Comprimento da barra */
   height: 6px; /* Altura da barra */
   background-color: #ff6700; /* Cor laranja */
