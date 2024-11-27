@@ -1,38 +1,38 @@
 import { myImages } from "../utils/img/imagens";
 import "../css/UltimosProdutos.css";
-
 function UltimosProdutos() {
   const produtosInfo = [
-    { id: 1, titulo: "Nome Produto", image: myImages.pc1 },
-    { id: 2, titulo: "Nome Produto", image: myImages.pc2 },
-    { id: 3, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 4, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 5, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 6, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 7, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 8, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 9, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 10, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 11, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 12, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 13, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 14, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 15, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 16, titulo: "Nome Produto", image: myImages.pc3 },
-    { id: 17, titulo: "Nome Produto", image: myImages.pc3 },
+    { id: 1, titulo: "Nome Produto", image: myImages.pc1, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 2, titulo: "Nome Produto", image: myImages.pc2, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 3, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 4, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 5, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 6, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 7, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 8, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 9, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 10, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 11, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 12, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 13, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 14, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 15, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
+    { id: 16, titulo: "Nome Produto", image: myImages.pc3, dedalhes: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus modi nihil harum quos quod beatae explicabo vero, voluptatibus dolorem, obcaecati sapiente voluptas, quidem unde tempora dolores minima perspiciatis est possimus!"},
   ];
 
   return (
     <div className="boxProduto">
-      <h2 className="tituloC poppins-bold">Ultimos Produtos</h2>
-      <div className="titulo-barra"></div>
+      <h2 className="tituloCenter poppins-bold">Ultimos Produtos</h2>
+      <div className="titulo-barraCenter"></div>
       <div className="listProdutos">
         {produtosInfo.map((p) => (
-          <div className="container" key={p.id}>
-            <div className="containerImage">
-              <img src={produtosInfo.image} alt={produtosInfo.titulo} />
+          <div className="containerP" key={p.id}>
+            <div className="containerImageP">
+              <img src={p.image} alt={p.titulo} />
             </div>
-            <h2 className="titleProduto poppins-semibold">{produtosInfo.titulo}</h2>
+            <h2 className="tituloProduto poppins-semibold">{p.titulo}</h2>
+            <p className="ProductDescription">{p.dedalhes}</p>
+            <div className="boxbtnProduto"><button className="btnVerProduto">Ver Detalhes</button></div>
           </div>
         ))}
       </div>

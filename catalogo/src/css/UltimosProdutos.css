@@ -1,13 +1,92 @@
 .boxProduto {
   width: 100%;
   margin: 0;
-  padding: 20px 50px;
-  background-color: #c4c4c4;
+  padding: 20px 100px;
+  background-color: #C4C4C4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.tituloC {
-  text-align: left;
+.tituloCenter {
+  text-align: center;
   font-size: 40px;
   color: #333;
-  margin: 20px 30px 10px 60px;
+}
+
+.listProdutos {
+  margin: 20px 0px 0px 0px;
+  padding: 0px 20px 0px 40px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerP {
+  background-color: #4e4e4e;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 5px;
+}
+
+.containerImageP {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.containerImageP img {
+  max-width: 90%;
+  max-height: 200px;
+  object-fit: cover; /* Assegura que a imagem seja adaptada sem distorções */
+  border-radius: 8px;
+}
+
+.tituloProduto {
+  color: #fff;
+}
+
+.ProductDescription {
+  font-size: 16px;
+  color: #fff;
+  margin: 10px 0;
+  line-height: 1.5;
+  height: 3em; /* Duas linhas de altura */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limita a exibição para 2 linhas */
+  -webkit-box-orient: vertical;
+}
+
+.boxbtnProduto {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btnVerProduto {
+  width: 200px;
+  background-color: #242725;
+  border: 2px solid #ff6700;
+  border-radius: 10px;
+  color: #ff6700;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btnVerProduto:hover {
+  background-color: #333; 
 }

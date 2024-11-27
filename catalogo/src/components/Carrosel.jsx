@@ -46,8 +46,8 @@ function Carrosel() {
 
   return (
     <div className="carrosel-container">
-      <h2 className="tituloDestac poppins-bold">Produtos Em Destaque</h2>
-      <div className="titulo-barraDestac"></div>
+      <h2 className="tituloCenterL poppins-bold">Produtos Em Destaque</h2>
+      <div className="titulo-barraCenter"></div>
       <div className="carrosel">
         {slides.map((slide, index) => (
           <div
