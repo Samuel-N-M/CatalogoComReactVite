@@ -1,0 +1,135 @@
+/* Estilo Geral do Rodapé */
+.footer {
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+  padding: 50px 50px 10px 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 0 20px;
+}
+
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  color: #b0b0b0;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  color: #ff6700;
+  margin-bottom: 10px;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.download-btn {
+  width: 150px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #ddd;
+}
+
+/* Links Úteis */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #b0b0b0;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé Inferior */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+
+.footer-bottom hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 20px 0;
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza os itens */
+  }
+
+  .footer-section {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .footer-buttons {
+    flex-direction: column; /* Botões empilhados */
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    font-size: 18px;
+  }
+
+  .download-btn {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+  }
+
+  .footer-links li {
+    font-size: 12px;
+  }
+}

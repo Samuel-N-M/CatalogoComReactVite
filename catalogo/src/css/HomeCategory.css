@@ -1,6 +1,7 @@
+/* Estilos gerais */
 .boxScroll {
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding: 20px 50px;
   background-color: #333;
 }
@@ -27,7 +28,6 @@
   width: 150px; /* Comprimento da barra */
   height: 6px; /* Altura da barra */
   background-color: #ff6700; /* Cor laranja */
-  margin: 0; /* Centraliza a barra */
   margin: 0px 30px 30px 60px; /* Espaço abaixo da barra */
   border-radius: 20px;
 }
@@ -45,19 +45,23 @@
   font-size: 20px;
 }
 
+/* Estilos das categorias */
 .scrollCategoria {
   margin: 0px 30px 0px 60px;
-  width: auto;
   height: 300px;
   display: flex;
-  gap: 32px;
-  overflow-x: auto;
+  gap: 20px;
+  overflow-x: hidden; /* Sem scroll em desktop */
   scrollbar-color: transparent transparent;
   user-select: none;
 }
 
-.schrollCategoria::-webkit-scrollbar {
-  height: 1px;
+.scrollCategoria.mobile {
+  overflow-x: auto; /* Scroll em dispositivos móveis */
+}
+
+.scrollCategoria.mobile::-webkit-scrollbar {
+  height: 6px; /* Scroll menor em mobile */
   background-color: transparent;
 }
 
@@ -84,4 +88,30 @@
   height: 200px;
   object-fit: cover; /* Ajusta a proporção da imagem */
   border-radius: 100px; /* Arredonda os cantos */
+}
+
+/* Ajustes específicos para dispositivos móveis */
+@media (max-width: 768px) {
+  .scrollCategoria {
+    margin: 0; /* Remove margens para economizar espaço */
+    overflow-x: auto; /* Permite scroll horizontal */
+  }
+
+  .linkTodasCategoria {
+    display: none; /* Esconde o link "Mais Categorias" em mobile */
+  }
+
+  .titulo {
+    font-size: 24px; /* Reduz o tamanho da fonte */
+    margin: 0px 15px 10px 30px; /* Ajusta margens */
+  }
+
+  .titulo-barra {
+    margin: 0px 15px 20px 30px; /* Ajusta margens da barra */
+  }
+
+  .containerImage img {
+    width: 150px; /* Ajusta largura das imagens */
+    height: 150px;
+  }
 }
