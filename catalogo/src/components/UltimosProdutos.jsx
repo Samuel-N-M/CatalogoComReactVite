@@ -1,4 +1,4 @@
-import { myImages } from "../utils/img/imagens";
+import { myImages } from "../assets/imagens";
 import "../css/UltimosProdutos.css";
 function UltimosProdutos() {
   const produtosInfo = [

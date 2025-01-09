@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "../css/carrosel.css";
-import {myImages} from "../utils/img/imagens.js";
+import {myImages} from "../assets/imagens";
+import { Link } from "react-router-dom";
 
 function Carrosel() {
   // array que contem os dados de cada slide
@@ -59,7 +60,7 @@ function Carrosel() {
               <div className="texto">
                 <h3 className="poppins-semibold">{slide.title}</h3>
                 <p className="poppins-regular">{slide.description}</p>
-                <button className="botao poppins-semibold">Ver mais →</button>
+                <button className="botao poppins-semibold"><Link to="/detalhesProduto" className="linkButton">Ver mais →</Link></button>
               </div>
               <div className="imagem">
                 <img src={slide.image} alt={slide.title} />
