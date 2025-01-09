@@ -89,6 +89,11 @@
   background-color: #333; /* Fundo escurecido ao passar o mouse */
 }
 
+.linkButton{
+  text-decoration: none;
+  color: #ff6700;
+}
+
 .imagem img {
   width: 500px;
   height: 350px;

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useEffect, useRef, useState } from "react";
-import { myImages } from "../utils/img/imagens.js";
+import { myImages } from "../assets/imagens";
 import "../css/HomeCategory.css";
 
 function HomeCategory() {
