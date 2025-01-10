@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { myImages } from "../assets/imagens";
 import "../css/UltimosProdutos.css";
 function UltimosProdutos() {
@@ -32,7 +33,10 @@ function UltimosProdutos() {
             </div>
             <h2 className="tituloProduto poppins-semibold">{p.titulo}</h2>
             <p className="ProductDescription">{p.dedalhes}</p>
-            <div className="boxbtnProduto"><button className="btnVerProduto">Ver Detalhes</button></div>
+            <div className="boxbtnProduto">
+              <button className="btnVerProduto">
+                <Link to="/detalhesProduto" className="linkButton">Ver Detalhes</Link>
+              </button></div>
           </div>
         ))}
       </div>

@@ -2,15 +2,37 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
   background-color: #242725;
 }
 
 .category {
-  background-color: #5c5c5c;
-  padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category:nth-child(odd) {
+  background-color: #bbb; /* Cor para categorias ímpares */
+}
+
+.category:nth-child(odd) .category-title{
+  color: #242725;
+  font-weight: bold;
+}
+
+.category:nth-child(even) {
+  background-color: #242725; /* Cor para categorias pares */
+}
+
+.category:nth-child(even) .product-title{
+  color: #242725;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.category:nth-child(even) .product-price{
+  color: #242725;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .category-title {
@@ -19,20 +41,30 @@
   font-weight: bold;
   margin-bottom: 1rem;
   color: white;
-  border-left: 4px solid #ff6700;
-  padding: 10px 20px;
+  padding-top: 20px;
+}
+
+.titulo-barra-category {
+  width: 150px;
+  height: 6px;
+  background-color: #ff6700;
+  margin: 10px 120px;
+  border-radius: 20px;
 }
 
 .product-list {
+  padding-top: 20px;
+  padding-bottom: 40px;
   margin: 20px 100px;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+  border-radius: 20px;
 }
 
 .product-card {
-  background-color: #1d1d1d;
+  background-color: #242725;
   color: #fff;
   width: 300px;
   height: 450px;
@@ -44,6 +76,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.category:nth-child(even) .product-card {
+  background-color: #bbb; /* Cor para produtos ímpares */
 }
 
 .product-image {
@@ -65,7 +101,7 @@
   color: #bbb;
 }
 
-.boxbtnDetalheProduto{
+.boxbtnDetalheProduto {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -84,6 +120,5 @@
 }
 
 .btnVerDestalheProduto:hover {
-  background-color: #333; 
+  background-color: #333;
 }
-

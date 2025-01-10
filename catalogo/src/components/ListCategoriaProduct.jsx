@@ -1,5 +1,6 @@
-import "../../css/Marcas/CategoryList.css";
-import { myImages } from "../../assets/imagens";
+import "../css/CategoryList.css";
+import { myImages } from "../assets/imagens";
+import { Link } from "react-router-dom";
 
 const categoria = [
   {
@@ -115,6 +116,7 @@ function ListCategoriaProduct() {
       {categoria.map((category, index) => (
         <div key={index} className="category">
           <h2 className="category-title">{category.name}</h2>
+          <div className="titulo-barra-category"></div>
           <div className="product-list">
             {category.products.map((product, idx) => (
               <div key={idx} className="product-card">
@@ -126,7 +128,11 @@ function ListCategoriaProduct() {
                 <h3 className="product-title">{product.title}</h3>
                 <p className="product-price">{product.priceRange}</p>
                 <div className="boxbtnDetalheProduto">
-                  <button className="btnVerDestalheProduto">Conferir</button>
+                  <button className="btnVerDestalheProduto">
+                    <Link to="/detalhesProduto" className="linkButton">
+                      Conferir
+                    </Link>
+                  </button>
                 </div>
               </div>
             ))}

@@ -1,7 +1,8 @@
 import { myImages } from "../assets/imagens";
 import { useState, useRef } from "react";
 import "../css/Marca.css";
-import "../css/Categoria.css"; // Estilo para a lista de categorias
+import "../css/MarcaCategoria.css"; // Estilo para a lista de categorias
+import { Link } from "react-router-dom";
 
 function Marca() {
   const [selectedBrand, setSelectedBrand] = useState(null);
@@ -348,7 +349,7 @@ function Marca() {
                     <p className="productPrice">{product.priceRange}</p>
                     <div className="boxbtnDetalheProduto">
                       <button className="btnVerDestalheProduto">
-                        Ver Detalhes
+                        <Link to="/detalhesProduto" className="linkButton">Ver Detalhes</Link>
                       </button>
                     </div>
                   </div>

@@ -1,5 +1,5 @@
-import "../../css/ProductDetails.css";
-import { myImages } from "../../assets/imagens.js";
+import "../css/ProductDetails.css";
+import { myImages } from "../assets/imagens.js";
 
 function ContainerDetalhe() {
   return (

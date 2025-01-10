@@ -1,4 +1,4 @@
-import ContainerDetalhe from "../components/DetalhesProduto/containerDetalhe";
+import ContainerDetalhe from "../components/ContainerDetalhe";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import "../css/ProductDetails.css";
