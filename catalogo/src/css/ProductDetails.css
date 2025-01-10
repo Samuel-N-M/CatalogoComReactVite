@@ -32,11 +32,11 @@
   text-align: left;
 }
 
-.product-price {
+.product-priceD {
   font-size: 2rem;
   color: #ff6700;
   margin-bottom: 1.5rem;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .product-description {

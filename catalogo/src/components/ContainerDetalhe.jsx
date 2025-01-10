@@ -10,7 +10,7 @@ function ContainerDetalhe() {
         </div>
         <div className="product-info">
           <h1 className="product-name">Nome do item</h1>
-          <p className="product-price">R$ 5.498,00 - 6.000,00</p>
+          <p className="product-priceD">R$ 5.498,00 - 6.000,00</p>
           <p className="product-description">
             Lorem ipsum dolor sit amet. Id iste saepe qui repellendus dolorem et
             deleniti explicabo ut ipsam dolores. Et saepe veritatis id porro
