@@ -2,6 +2,12 @@
 
 Este é um site de catalogo de produtos desenvolvido para apresentar ao clinete de uma comercio seus produtos e também deixlos atualizados de novos produtos de suas loja.
 
+## Descrição do proejto:
+
+No segmento de eletrônicos, a ausência de um sistema eficaz para apresentação dos catálogos de produtos pode gerar dificuldades na experiência dos consumidores, principalmente no ambiente on-line. Muitas pessoas têm problemas para visualizar os produtos em detalhe, comparar as opções e acessar informações sobre especificações técnicas, disponibilidade e preços. Esta questão é ainda mais acentuada em lojas de pequeno porte, que frequentemente carecem de plataformas modernas e otimizadas para atrair clientes.
+
+Uma solução em rede possibilitaria uma melhor apresentação e navegação nos produtos, proporcionando uma experiência agradável e interativa, além de aumentar o alcance das vendas on-line. A plataforma também permitiria maior agilidade no processo de aquisição de produtos, oferecendo recursos como filtros avançados, visualização detalhada e integração com sistemas de estoque. O desenvolvimento de uma plataforma de catálogo de eletrônicos eficiente e atraente contribuiria para a melhora da experiência do cliente e para o crescimento sustentável do negócio.
+
 ## Descrição das telas
 
 ### Tela principal:
