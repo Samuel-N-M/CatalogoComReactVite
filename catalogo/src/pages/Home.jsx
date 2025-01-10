@@ -10,9 +10,8 @@ import Footer from "../components/Footer.jsx";
 function Home() {
     return (
         <div>
-            <Menu />,
+            <Menu />
             <Carrosel />
-            <HomeCategory />
             <UltimosProdutos />
             <Footer />
         </div>
