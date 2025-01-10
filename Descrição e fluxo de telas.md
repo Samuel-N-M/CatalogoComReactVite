@@ -1,6 +1,6 @@
 ## Objetivo do projeto
 
-Este é um site de catalogo de produtos desenvolvido para apresentar ao clinete de uma comercio seus produtos e também deixlos atualizados de novos produtos de suas loja.
+Este é um site de catálogo de produtos desenvolvido para apresentar ao cliente de um comércio seus produtos e também deixá-los atualizados de novos produtos de suas lojas.
 
 ## Descrição do proejto:
 
